@@ -5,6 +5,7 @@ $.noConflict();
       $number = 1 + Math.floor(Math.random() * 87);
     }
     setInterval(generate,1000);
+    var $chars = $('#character');
   }
 );
 })(jQuery);
