@@ -13,7 +13,17 @@ html {
   line-height: 1.222em; /* 22px / 18px (1 gridline) */
   background-color: #242424;
   color: #EEE;
-  font-family: Tahoma, Helvetica, sans-serif;
+  font-family: "Andale Mono", Helvetica, Tahoma, sans-serif;
+  padding: 15px 18px;
+}
+
+h1 {
+  font-size: 1.444em; /* 26/18px */
+  line-height: 1.269em; /* 33px / 26px (1.5 gridline) */
+}
+
+h2 {
+  font-size: 0.694em; /* 12.5/18px */
 }
 
 img {
