@@ -8,6 +8,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
+html {
+  font-size: 1.125em; /* 18px */ /* MINOR 3rd - 5:6 - 1.2  */
+  line-height: 1.222em; /* 22px / 18px (1 gridline) */
+  background-color: #242424;
+  color: #EEE;
+  font-family: Tahoma, Helvetica, sans-serif;
+}
 
 img {
   display: block;
