@@ -13,8 +13,9 @@ html {
   line-height: 1.222em; /* 22px / 18px (1 gridline) */
   background-color: #242424;
   color: #EEE;
-  font-family: "Andale Mono", Helvetica, Tahoma, sans-serif;
-  padding: 15px 18px;
+  font-family: "Futura", "Andale Mono", Helvetica, Tahoma, sans-serif;
+  letter-spacing: 0.125em;
+  padding: 0.833em 1.125em; /* 15px 18px */
 }
 
 h1 {
