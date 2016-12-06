@@ -15,7 +15,7 @@ $.noConflict();
           $chars.append('<li> Name: ' + data.name + '</li>');
           $chars.append('<li> Birth year: ' + data.birth_year + '</li>');
           $chars.append('<li> Height: ' + data.height + ' cm </li>');
-          $chars.append('<li> Weight: ' + data.weight + ' kg </li>');
+          $chars.append('<li> Weight: ' + data.mass + ' kg </li>');
           $chars.append('<li> Gender: ' + data.gender + '</li>');
           $chars.append('<li> Hair color: ' + data.hair_color + '</li>');
           $chars.append('<li> Skin color: ' + data.skin_color +'</li>');
