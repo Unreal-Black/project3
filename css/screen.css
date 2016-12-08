@@ -27,10 +27,25 @@ h2 {
   font-size: 0.694em; /* 12.5/18px */
 }
 
+li {
+  padding-bottom: 0.611em; /* 11px = 0.5 gridline */
+}
+
+/*
+li:last-child {
+  padding-bottom: 0;
+}
+*/
+
+button {
+  margin-top: 0.833em; /* 15px  */
+}
+
 img {
   display: block;
   max-width: 100%;
 }
+
 
 /* ===== LAYOUT STYLES ===== */
 
@@ -39,3 +54,7 @@ img {
 
 
 /* ===== STATE STYLES ===== */
+
+@media screen and (min-width: 1250px){
+
+}
