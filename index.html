@@ -9,9 +9,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/swapi.js"></script>
     <article>
-      <p> Random Star Wars character bio</p>
-      <button id="random">GET A RANDOM BIO</button>
-      <ul id="character">
+      <p> Star Wars Character Bios</p>
+      <form id="swapi-form" name="swapi-form" method="get" action="#null">
+        <label for="chars">Enter a character's name.</label>
+        <input type="text" id="chars" name="chars" />
+        <input type ="submit" id="chars-submit" name="chars-submit" value="Search"/>
+      </form>
+      <button id="random">Get a random bio</button>
+      <ul id="bio">
       </ul>
     </article>
   </body>
