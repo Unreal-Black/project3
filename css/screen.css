@@ -8,11 +8,44 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
+html {
+  font-size: 1.125em; /* 18px */ /* MINOR 3rd - 5:6 - 1.2  */
+  line-height: 1.222em; /* 22px / 18px (1 gridline) */
+  background-color: #242424;
+  color: #EEE;
+  font-family: "Futura", "Andale Mono", Helvetica, Tahoma, sans-serif;
+  letter-spacing: 0.125em;
+  padding: 0.833em 1.125em; /* 15px 18px */
+}
+
+h1 {
+  font-size: 1.444em; /* 26/18px */
+  line-height: 1.269em; /* 33px / 26px (1.5 gridline) */
+}
+
+h2 {
+  font-size: 0.694em; /* 12.5/18px */
+}
+
+li {
+  padding-bottom: 0.611em; /* 11px = 0.5 gridline */
+}
+
+/*
+li:last-child {
+  padding-bottom: 0;
+}
+*/
+
+button {
+  margin-top: 0.833em; /* 15px  */
+}
 
 img {
   display: block;
   max-width: 100%;
 }
+
 
 /* ===== LAYOUT STYLES ===== */
 
@@ -21,3 +54,7 @@ img {
 
 
 /* ===== STATE STYLES ===== */
+
+@media screen and (min-width: 1250px){
+
+}
