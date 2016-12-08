@@ -21,7 +21,6 @@ $.noConflict();
         $bio.append('<li> Hair color: ' + info.results[0].hair_color + '</li>');
         $bio.append('<li> Skin color: ' + info.results[0].skin_color +'</li>');
         $bio.append('<li> Eye color: ' + info.results[0].eye_color + '</li>');
-        console.log(char);
       });
     });
 
